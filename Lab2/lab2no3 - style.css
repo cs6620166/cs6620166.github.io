@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    width: 10%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 1px solid #333;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+/* Pseudo-selector เมื่อชี้เมาส์ที่แถว */
+tr:hover {
+    background-color: #f0e68c; /* สีเหลืองอ่อน */
+}
